@@ -17,8 +17,8 @@ public class BlockWood extends Block{
 		return this.textureName;
 	}
 
-	public void func_94332_a(IconRegister reg){
-		this.field_94336_cN = reg.func_94245_a("zoneseek:" + this.getTextureName());
+	public void registerIcons(IconRegister reg){
+		this.blockIcon = registerIcon("zoneseek:" + this.getTextureName());
 	}
 
 }
